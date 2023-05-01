@@ -1,0 +1,87 @@
+header {
+    text-align: center;
+}
+
+ul li a {
+    color: black;
+}
+
+body{
+    background-color: lightblue;
+}
+
+.navs {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Add this to display the links horizontally */
+	justify-content: space-between; /* Add this to distribute the links evenly */
+    border: 1px solid black; /* Add this to add a border */
+    border-radius: 5px; /* Add this to add rounded corners */
+    padding: 10px; /* Add this to add some padding inside the border */
+}
+
+.personal_dl{
+    list-style-type: none;
+    padding:0;
+    margin-bottom: 10px;
+    font-size: 20px;
+
+}
+
+.personal_dl li{
+    margin-bottom: 20px;
+}
+ul li a {
+    text-decoration: none;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .first .second{
+    padding-top: 40px;
+    font-size: 2px;
+  }
+
+  img{
+    height: 700px;
+    width: 1000px;
+    background-color: aqua;
+  }
+
+  .wrapper {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .personal_details {
+    flex-basis: 60%;
+  }
+  
+  .profile {
+    flex-basis: 40%;
+  }
+
+  section .alu{
+    height: 300px;
+    width: 550px;
+  }
+ .inver {
+    height: 300px;
+    width: 550px;
+}
+
+.bank{
+  height: 300px;
+  width: 550px;
+
+}
+
+.blockchain{
+  height: 300px;
+  width: 550px;
+}
