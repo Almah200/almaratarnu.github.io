@@ -20,6 +20,11 @@ body{
     border-radius: 5px; /* Add this to add rounded corners */
     padding: 10px; /* Add this to add some padding inside the border */
 }
+footer{
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
+}
 
 .personal_dl{
     list-style-type: none;
